@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.vehicle-cards {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.vehicle-card {
+    max-width: 330px;
+    height: 350px;
+    padding: 40px;
+    color: white;
+}
+
+.vehicle-card h2 {
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 48px;
+}
+
+.vehicle-card.sedans {
+    background-color: #E28625;
+}
+
+.vehicle-card.suv {
+    background-color: #006971;
+}
+.vehicle-card.luxury {
+    background-color: #004140;
+}
