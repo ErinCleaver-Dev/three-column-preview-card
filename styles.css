@@ -3,18 +3,19 @@
     margin: 0;
     font-family: 'Big Shoulders Display', cursive;
 }
-
+/*CSS for Vehcile Cards
+Changes by: Erin Cleaver
+Date: 6/28/2021
+*/
 .vehicle-cards {
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     margin: 20px;
-    overflow: hidden;
 }
 
 .vehicle-card {
-    max-width: 330px;
-    height: 350px;
+    max-width: 200px;
+    height: 280px;
     padding: 40px;
     color: white;
 }
@@ -23,10 +24,12 @@
     font-weight: 700;
     font-size: 2.2em;
     line-height: 48px;
+    margin-bottom: 40px;
 }
 
 .vehicle-card.sedans {
     background-color: #E28625;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .vehicle-card.suv {
@@ -34,4 +37,52 @@
 }
 .vehicle-card.luxury {
     background-color: #004140;
+    border-radius: 0px 0px 10px 10px;
 }
+
+.vehicle-card button {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px 20px;
+    font-size: .9em;
+    line-height: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.vehicle-card.sedans button {
+    color: #E28625;
+}
+
+.vehicle-card.suv button {
+    color: #006971;
+}
+
+.vehicle-card.luxury button {
+    color: #004140;
+}
+
+.vehicle-card button:hover { 
+    color: white;
+    border: 2px solid white;
+    transition: 0.0002s;
+}
+
+.vehicle-card.sedans button:hover {
+    background-color: #E28625;
+}
+
+.vehicle-card.suv button:hover {
+    background-color: #006971;
+}
+
+.vehicle-card.luxury button:hover {
+    background-color: #004140;
+}
+
+/*End of Vehcile Card*/
+
+
+/*Desktop changes for Vechile cards*/
+
