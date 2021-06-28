@@ -86,3 +86,17 @@ Date: 6/28/2021
 
 /*Desktop changes for Vechile cards*/
 
+@media only screen and (min-width: 1139px)  {
+    .vehicle-cards { 
+        flex-direction: row;
+        justify-content: center;
+    }
+    .vehicle-card.sedans {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .vehicle-card.luxury {
+        border-radius: 0px 10px 10px 0px;
+
+    }
+}
